@@ -2,7 +2,7 @@
 #define ReadRx_h
 
 #include <Arduino.h>
-#include <EnableInterrupt.h>
+#include "../libraries/EnableInterrupt/EnableInterrupt.h"
 
 int channel[5] = {0,1,2,3,4};
 int inputPin[5] = {5,7,6,4,3}; // default pins for throttle, roll, pitch, yaw, arm

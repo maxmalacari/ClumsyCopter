@@ -18,10 +18,10 @@ void loop(){
   ReadRx(); // Read the Rx values every loop iteration
 
   if (Armed()){
-  Serial.print(GetThrottleVal()); Serial.print("\t");
-  Serial.print(GetRollVal()); Serial.print("\t");
-  Serial.print(GetPitchVal()); Serial.print("\t");
-  Serial.print(GetYawVal()); Serial.print("\n");
+  Serial.println(GetThrottleVal()); //Serial.print("\t");
+  //Serial.print(GetRollVal()); Serial.print("\t");
+  //Serial.print(GetPitchVal()); Serial.print("\t");
+  //Serial.print(GetYawVal()); Serial.print("\n");
   }
 
 }
